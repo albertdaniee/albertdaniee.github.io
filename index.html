@@ -1,46 +1,296 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Jayaraj Daniel Albert | Cloud & Data Engineer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body { font-family: Arial; margin: 40px; background:#f4f6f9;}
-        h1 { color:#1f4e79; }
-        .card {
-            background:white;
-            padding:20px;
-            border-radius:10px;
-            box-shadow:0 4px 10px rgba(0,0,0,0.1);
-            margin-bottom:20px;
-        }
-        a { color:#0078d4; text-decoration:none; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jayaraj Daniel Albert Sundararaj | Data Architect</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --primary: #0f172a;
+    --accent: #2563eb;
+    --light: #f8fafc;
+    --gray: #64748b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--light);
+    color: var(--primary);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+header h2 {
+    font-weight: 400;
+    color: var(--gray);
+    margin-top: 8px;
+}
+
+.contact {
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+.contact a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section h3 {
+    font-size: 1.4rem;
+    border-left: 5px solid var(--accent);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.job {
+    margin-bottom: 25px;
+}
+
+.job h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.job span {
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.skills span {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 6px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: var(--gray);
+}
+
+@media (max-width: 768px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
 </head>
+
 <body>
 
-<h1>Jayaraj Daniel Albert</h1>
-<p>Senior Cloud & Data Warehouse Engineer</p>
+<div class="container">
 
+<header>
+    <h1>Jayaraj Daniel Albert Sundararaj</h1>
+    <h2>Entrepreneur / Founder – iDataScientist | Data Architect</h2>
+    <div class="contact">
+        Oshawa, Ontario, Canada |
+        albertdaniee@gmail.com |
+        <a href="https://www.linkedin.com">LinkedIn</a> |
+        <a href="http://tigers37.blogspot.com">Blog</a>
+    </div>
+</header>
+
+<section class="section">
+    <h3>Professional Summary</h3>
+    <div class="card">
+        <p>
+        21+ years of experience in Data Architecture, SQL Server, ETL, BI and Cloud Engineering.
+        7+ years specializing in Azure Data Factory, Databricks, Azure Synapse, PySpark, Delta Lake and Snowflake.
+        Canadian Citizen with strong client-facing leadership, business requirement gathering, 
+        and enterprise-scale data platform modernization expertise.
+        </p>
+    </div>
+</section>
+
+<section class="section">
+    <h3>Core Skills</h3>
+    <div class="card skills">
+        <span>Azure Data Factory</span>
+        <span>Databricks</span>
+        <span>Delta Lake</span>
+        <span>Snowflake</span>
+        <span>PySpark</span>
+        <span>SQL Server</span>
+        <span>Azure Synapse</span>
+        <span>Power BI</span>
+        <span>QlikView</span>
+        <span>QlikSense</span>
+        <span>Tableau</span>
+        <span>Terraform</span>
+        <span>Airflow</span>
+        <span>CI/CD</span>
+        <span>S3</span>
+        <span>SSIS</span>
+        <span>SSRS</span>
+        <span>SSAS</span>
+    </div>
+</section>
+
+<section class="section">
+<h3>Professional Experience</h3>
 <div class="card">
-<h2>About Me</h2>
-<p>16+ years experience in Azure, Databricks, Snowflake, ADF, BI and Enterprise Data Architecture.</p>
+
+<div class="job">
+<h4>Cognizant – Data Architect</h4>
+<span>June 2022 – March 2024 | Toronto, Canada</span>
+<ul>
+<li>Developed PySpark & Spark-SQL ETL pipelines across CSV, JSON, Delta & XML.</li>
+<li>Implemented Medallion Architecture in Delta Lake.</li>
+<li>Managed CRUD operations with ACID compliance.</li>
+<li>Built Snowflake Streams & Tasks for SCD Type 1 & 2.</li>
+<li>Migrated Teradata objects to Snowflake.</li>
+<li>Automated workflows using Databricks Jobs & Cluster configuration.</li>
+</ul>
 </div>
 
-<div class="card">
-<h2>Skills</h2>
+<div class="job">
+<h4>CIBC – Lead Consultant</h4>
+<span>May 2020 – May 2022 | Toronto, Canada</span>
 <ul>
-<li>Azure Data Factory</li>
-<li>Databricks & Delta Lake</li>
-<li>Snowflake</li>
-<li>Power BI</li>
-<li>SQL & Python</li>
+<li>Designed Azure Data Factory pipelines & Synapse integrations.</li>
+<li>Migrated SQL Server 2008 R2 to Azure SQL DB using BACPAC & DMA.</li>
+<li>Implemented Autosys JIL automation & runbooks.</li>
+<li>Deployed Azure App Services, APIs & OpenID authentication.</li>
+<li>Delivered dashboards & reporting solutions for LOB stakeholders.</li>
+</ul>
+</div>
+
+<div class="job">
+<h4>BMO Capital Markets – Lead Consultant</h4>
+<span>2019 – 2020 | Toronto</span>
+<ul>
+<li>Led requirement gathering & physical data modeling.</li>
+<li>Managed 10M+ rows & .2TB financial datasets.</li>
+<li>Built enterprise QlikView dashboards & multi-tier QVD architecture.</li>
+<li>Performed reconciliation & performance optimization.</li>
+</ul>
+</div>
+
+<div class="job">
+<h4>Wells Fargo Securities – QlikView Architect</h4>
+<span>2015 – 2018 | Bangalore</span>
+<ul>
+<li>Led team of 9 developers & 2 admins.</li>
+<li>Managed 500M+ row datasets with 0.3TB size.</li>
+<li>Designed enterprise BI architecture & forecasting dashboards.</li>
+<li>Performed data reconciliation & index tuning.</li>
+</ul>
+</div>
+
+<div class="job">
+<h4>Microsoft – Partner Technical Consultant</h4>
+<span>2012 – 2014 | India</span>
+<ul>
+<li>Implemented ETL frameworks (SSIS, SSRS, SSAS).</li>
+<li>Performance tuning & security hardening.</li>
+<li>Production deployments & SLA monitoring.</li>
+</ul>
+</div>
+
+<div class="job">
+<h4>Earlier Roles</h4>
+<span>2004 – 2012</span>
+<ul>
+<li>Polaris Consulting – Sr. Technical Lead</li>
+<li>LTI – Senior Software Engineer</li>
+<li>Verizon Media – Data Warehouse Specialist</li>
+<li>Designed OLTP, Data Warehouse, SSRS Reporting & Stored Procedures.</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h3>Education</h3>
+<div class="card">
+<p><strong>Bachelor’s Degree – Computer Engineering</strong><br>
+University of Madras (1999 – 2003)</p>
+<br>
+<p>Higher Secondary – Mathematics & Computer Science</p>
+</div>
+</section>
+
+<section class="section grid-2">
+<div class="card">
+<h3>Languages</h3>
+<ul>
+<li>English – Full Professional</li>
+<li>Tamil – Full Professional</li>
+<li>Hindi – Limited Working</li>
 </ul>
 </div>
 
 <div class="card">
-<h2>Contact</h2>
-<p>Email: albertdaniee@gmail.com</p>
-<p>Phone: +1 647 674 1069</p>
+<h3>Certifications & Tools</h3>
+<ul>
+<li>MS Fabric, ADF, Synapse</li>
+<li>Databricks</li>
+<li>Snowflake</li>
+<li>Power BI</li>
+<li>Tableau</li>
+<li>QlikView / QlikSense</li>
+</ul>
+</div>
+</section>
+
+<footer>
+© 2026 Jayaraj Daniel Albert Sundararaj | Data Architect Portfolio
+</footer>
+
 </div>
 
 </body>
